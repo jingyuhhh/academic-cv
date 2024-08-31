@@ -20,11 +20,10 @@
     --h2-size: 14pt;
     --h3-size: 11.5pt;
 
-    --text-font: 'PlayRegular';
-    --title-font: 'PlayRegular';
+    --text-font: 'Times';
+    --title-font: 'Times';
     --link-font: 'PlayRegular';
     --code-font: 'PlayRegular';
-    --sub-title-font: 'PlaySemibold';
 }
 
 @media print {
@@ -34,19 +33,15 @@
 }
 
 /* Font Face */
-
-@font-face {
-    font-family: "PlaySemibold";
-    src: url('lapis-cv/PlayfairDisplaySemibold-lg9nd.ttf');
-}
-
 @font-face {
     font-family: "PlayRegular";
     src: url('lapis-cv/PlayfairDisplayRegular-ywLOY.ttf');
 }
 
-
-
+@font-face {
+    font-family: "Times";
+    src: url('lapis-cv/Times New Roman.ttf');
+}
 
 /* Global */
 
@@ -67,15 +62,26 @@
     }
 }
 
+#write img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
 /* Title */
 
 #write h1,
 #write h2 {
     font-family: var(--title-font);
+    letter-spacing: 1.5px;
 }
 
+
+
 #write h3{
-    font-family: var(--sub-title-font);
+    font-family: var(--title-font);
+    letter-spacing: 0.5px;
 }
 
 #write h1 {
@@ -132,6 +138,10 @@
 #write p {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#write span[style="text-align: right;"]{
+    font-family: var(--link-font)
 }
 
 @media print {
