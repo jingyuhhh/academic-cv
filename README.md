@@ -2,41 +2,19 @@
     LapisCV
 </h1>
 <p align="center">
-    📃 开箱即用的 Obsidian / Typora 简历
+    📃 开箱即用的 Typora Academic 简历
 </p>
-<div align="center">
-    <img alt="Release" src="https://img.shields.io/github/v/release/BingyanStudio/LapisCV?style=flat-square">
-    &nbsp;
-    <img alt="Stars" src="https://img.shields.io/github/stars/BingyanStudio/LapisCV?style=flat-square">
-    &nbsp;
-    <img alt="Downloads" src="https://img.shields.io/github/downloads/BingyanStudio/LapisCV/total?style=flat-square&color=007ec7">  
-</div><br>
-
-基于 Markdown 格式，易于编辑，所见即所得。风格简洁正式，支持多页，适用于大部分求职 / 求学场景。
+基于 Markdown 格式，易于编辑，所见即所得。风格简洁正式，支持多页，适用于大部分求学场景。
 
 ### 预览
 
-- Obsidian / Typora 编辑页
+![5c28f269c758550dfc7067b968f1c27](https://github.com/user-attachments/assets/2dc3674d-3c19-4013-9723-7389d98e9797)
 
-<div align="center">
-<div>
-<img src=".assets/screenshot-obsidian.png" width="90%" />
-<img src=".assets/screenshot.png" width="90%" />
-</div>
-</div>
-
-- [PDF样例](https://raw.githubusercontent.com/BingyanStudio/LapisCV/main/.assets/preview.pdf)
 
 <br>
-<div align="center">
-<img width="80%" alt="Screenshot" src=".assets/preview.png">
-</div>
+
 
 ### 安装与使用
-
-#### Obsidian
-
-下载 [Release](https://github.com/BingyanStudio/LapisCV/releases/latest)，将 `lapis-cv-obsidian` 目录作为 Vault 在 Obsidian 打开，编辑 template 并导出 PDF 文件即可。
 
 #### Typora
 
@@ -64,9 +42,6 @@
 
 支持自定义样式，便于适配不同体量的单页内容 & 根据喜好调整样式细节。
 
-#### Obsidian
-
-可在 设置 - 外观 中快速更换主题色与字体，其他样式在 `.obsidian/themes/lapis-cv.css` 修改。
 
 #### Typora
 
