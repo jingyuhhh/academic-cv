@@ -1,5 +1,5 @@
 <h1 align="center">
-    LapisCV
+    AcademicCV
 </h1>
 <p align="center">
     📃 开箱即用的 Typora Academic 简历
